@@ -27,6 +27,12 @@ const int analogOutPin = 9; // Analog output pin that the LED is attached to
 int sensorValue = 0;        // value read from the pot
 int outputValue = 0;        // value output to the PWM (analog out)
 
+int pos = 0;
+
+int arrSize = 68;
+
+String output = "";
+
 void setup() {
   // initialize serial communications at 9600 bps:
   Serial.begin(9600);
@@ -35,15 +41,26 @@ void setup() {
 void loop() {
   // read the analog in value:
   sensorValue = analogRead(analogInPin);
+  Serial.println(pos);
+  if(pos < arrSize)
+  {
+    output = output + String(pos) + ":" + String(sensorValue) +"\n";
+    pos++;
+  }
+  else
+  {
+    Serial.println(output);
+    output = "";
+    pos = 0;
+  }
+
   // map it to the range of the analog out:
-  outputValue = map(sensorValue, 0, 1023, 0, 255);
+  //outputValue = map(sensorValue, 0, 1023, 0, 255);
   // change the analog out value:
-  analogWrite(analogOutPin, outputValue);
+  //analogWrite(analogOutPin, outputValue);
 
   // print the results to the serial monitor:
   //Serial.print("sensor = " );
-  
-  Serial.print(sensorValue + "\n");
 
   //Serial.print("\t output = ");
   //Serial.println(outputValue);
@@ -51,5 +68,5 @@ void loop() {
   // wait 2 milliseconds before the next loop
   // for the analog-to-digital converter to settle
   // after the last reading:
-  delay(.02);
+  delay(1);
 }
