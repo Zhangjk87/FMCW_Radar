@@ -1,0 +1,30 @@
+Added Component: Designator=E?(PIN1)
+Added Component: Designator=F?(PIN1)
+Added Component: Designator=G?(PIN1)
+Added Component: Designator=U?(INF-TSNP-16-1_V)
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-6
+Added Pin To Net: NetName=GND Pin=U?-7
+Added Pin To Net: NetName=GND Pin=U?-8
+Added Pin To Net: NetName=GND Pin=U?-9
+Added Pin To Net: NetName=GND Pin=U?-10
+Added Pin To Net: NetName=GND Pin=U?-11
+Added Pin To Net: NetName=GND Pin=U?-12
+Added Pin To Net: NetName=GND Pin=U?-13
+Added Pin To Net: NetName=GND Pin=U?-17
+Added Net: Name=GND
+Added Pin To Net: NetName=NetE?_1 Pin=E?-1
+Added Pin To Net: NetName=NetE?_1 Pin=U?-16
+Added Net: Name=NetE?_1
+Added Pin To Net: NetName=NetF?_1 Pin=F?-1
+Added Pin To Net: NetName=NetF?_1 Pin=U?-15
+Added Net: Name=NetF?_1
+Added Pin To Net: NetName=NetG?_1 Pin=G?-1
+Added Pin To Net: NetName=NetG?_1 Pin=U?-14
+Added Net: Name=NetG?_1
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1
