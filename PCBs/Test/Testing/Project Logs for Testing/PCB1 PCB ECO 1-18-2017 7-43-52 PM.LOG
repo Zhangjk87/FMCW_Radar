@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=GND Pin=U?-1
+Removed Pin From Net: NetName=GND Pin=U?-2
+Removed Pin From Net: NetName=GND Pin=U?-3
+Removed Pin From Net: NetName=GND Pin=U?-4
+Removed Pin From Net: NetName=GND Pin=U?-5
+Removed Pin From Net: NetName=GND Pin=U?-6
+Removed Pin From Net: NetName=GND Pin=U?-7
+Removed Pin From Net: NetName=GND Pin=U?-8
+Removed Pin From Net: NetName=GND Pin=U?-9
+Removed Pin From Net: NetName=GND Pin=U?-10
+Removed Pin From Net: NetName=GND Pin=U?-11
+Removed Pin From Net: NetName=GND Pin=U?-12
+Removed Pin From Net: NetName=GND Pin=U?-13
+Removed Pin From Net: NetName=GND Pin=U?-17
+Removed Member From Class: ClassName=Sheet1 Member=E?
+Removed Member From Class: ClassName=Sheet1 Member=F?
+Removed Member From Class: ClassName=Sheet1 Member=G?
+Removed Member From Class: ClassName=Sheet1 Member=U?
+Added Component: Designator=C?(CAPC1206(3216)100_L)
+Added Component: Designator=C?(CAPC1206(3216)100_L)
+Added Component: Designator=R?(RESC1206(3216)_L)
+Added Component: Designator=R?(RESC1206(3216)_L)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=VCC Pin=C?-1
+Added Net: Name=VCC
+Added Member To Class: ClassName=Sheet1 Member=Component C? CAP 1nF 6.3V 1206(3216)
+Added Member To Class: ClassName=Sheet1 Member=Component C? CAP 1nF 6.3V 1206(3216)
+Added Member To Class: ClassName=Sheet1 Member=Component R? 200K 5% 1206(3216)
+Added Member To Class: ClassName=Sheet1 Member=Component R? 200K 5% 1206(3216)
